@@ -18,17 +18,8 @@ This website serves as a professional portfolio for my academic and research act
 - **HTML/CSS**: For structure and styling.
 - **GitHub Pages**: For hosting the static website.
 
-## Setup (Local Development)
-To run the website locally:
-1. Clone the repository: `git clone https://github.com/Ahmad-Fermion/Ahmad-Fermion.github.io.git`
-2. Open `index.html` in a web browser or use a local server (e.g., `python -m http.server`).
-3. Make changes and push updates to the `main` branch to deploy via GitHub Pages.
-
-## Contributing
-This is a personal website, so contributions are not actively sought. However, if you have suggestions or find issues, please contact me via the [Contact page](https://Ahmad-Fermion.github.io/contact.html).
-
 ## License
 This project is licensed under the [MIT License](LICENSE). See the LICENSE file for details.
 
 ## Contact
-For inquiries, visit the [Contact page](https://Ahmad-Fermion.github.io/contact.html) or email me at [your-email@example.com].
+For inquiries, visit the [Contact page](https://Ahmad-Fermion.github.io/contact.html) or email me at [rajabiahmadreza1@gmail.com].
