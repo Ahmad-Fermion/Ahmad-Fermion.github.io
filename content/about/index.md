@@ -3,6 +3,7 @@ date = '2025-06-02T16:10:52-07:00'
 draft = false
 title = ''
 layout = ''
+image = '/images/Ahmad.jpg'
 +++
 
 <img src="/images/Ahmad.jpg" alt="Ahmadreza Rajabi" class="right-image">

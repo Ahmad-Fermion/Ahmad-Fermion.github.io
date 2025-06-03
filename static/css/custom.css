@@ -1,0 +1,8 @@
+.right-image {
+    float: right;
+    width: 221px;
+    height: auto;
+    max-width: 100%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
