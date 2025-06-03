@@ -2,6 +2,6 @@
     <a href="/" class="title">{{ .Site.Title | safeHTML }}</a>
     <div class="site-info">
         <h2>{{ .Site.Params.head.author }}</h2>
-        <p>{{ .Site.Params.head.description }}</p>
+        <p>{{ .Site.Params.head.description | safeHTML }}</p>
     </div>
 </header>
