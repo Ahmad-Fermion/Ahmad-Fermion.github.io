@@ -3,7 +3,7 @@ date = '2025-06-02T16:10:52-07:00'
 draft = false
 title = 'Welcome!'
 layout = 'landing_page'
-image = '/images/lab.jpg'
+image = '/images/Ahmad.jpg'
 +++
 
 I’m Ahmadreza Rajabi, a PhD candidate in Computational Chemistry at the University of California, Irvine (UCI). 
