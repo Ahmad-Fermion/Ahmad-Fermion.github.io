@@ -4,4 +4,3 @@ draft = false
 title = 'CV'
 +++
 
-[Download my CV here](/files/cv.pdf)
