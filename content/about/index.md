@@ -4,7 +4,7 @@ draft = false
 title = ''
 layout = 'about'
 +++
-![Ahmadreza Rajabi](/images/Ahmad.jpg){.right-image}
+<img src="/images/Ahmad.jpg" alt="Ahmadreza Rajabi" class="right-image">
 I’m Ahmadreza Rajabi, a PhD candidate in Computational Chemistry at the University of California, Irvine (UCI). 
 My research focuses on electronic structure theory and materials science, with a special interest in f-block organometallic complexes and heavy-element chemistry. 
 With 17 peer-reviewed publications in journals such as *JACS* and *Chemical Science*, I collaborate with leading groups to advance chemical reactivity and material properties. Explore my work, CV, and projects here!
