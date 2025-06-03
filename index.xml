@@ -9,6 +9,13 @@
     <lastBuildDate>Mon, 02 Jun 2025 16:10:52 -0700</lastBuildDate>
     <atom:link href="https://Ahmad-Fermion.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>About</title>
+      <link>https://Ahmad-Fermion.github.io/about/</link>
+      <pubDate>Mon, 02 Jun 2025 16:10:52 -0700</pubDate>
+      <guid>https://Ahmad-Fermion.github.io/about/</guid>
+      <description>I’m Ahmadreza Rajabi, a PhD candidate in Computational Chemistry at the University of California, Irvine (UCI). My research focuses on electronic structure theory and materials science, with a special interest in f-block organometallic complexes and heavy-element chemistry. With 17 peer-reviewed publications in journals such as JACS and Chemical Science, I collaborate with leading groups to advance chemical reactivity and material properties. Explore my work, CV, and projects here!</description>
+    </item>
+    <item>
       <title>Contact</title>
       <link>https://Ahmad-Fermion.github.io/contact/</link>
       <pubDate>Mon, 02 Jun 2025 16:10:52 -0700</pubDate>
