@@ -14,8 +14,8 @@
     <meta name="theme-color" content="{{ .Site.Params.colors.theme_color | default "#333333" }}">
 
     <!-- Add author, description and keywords -->
-    <meta name="author" content="{{ .Site.Params.head.Author }}">
-    <meta name="description" content="{{ .Site.Params.head.Description }}" />
+    <meta name="author" content="{{ .Site.Params.head.author }}">
+    <meta name="description" content="{{ .Site.Params.head.description }}" />
     {{ with .Site.Params.head.keywords }}
         <meta name="keywords" content="{{ delimit .  ", " }}" />
     {{ end }}
