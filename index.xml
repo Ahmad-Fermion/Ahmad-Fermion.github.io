@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome! on Ahmadreza Rajabi</title>
+    <link>https://Ahmad-Fermion.github.io/</link>
+    <description>Recent content in Welcome! on Ahmadreza Rajabi</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Jun 2025 16:10:52 -0700</lastBuildDate>
+    <atom:link href="https://Ahmad-Fermion.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contact</title>
+      <link>https://Ahmad-Fermion.github.io/contact/</link>
+      <pubDate>Mon, 02 Jun 2025 16:10:52 -0700</pubDate>
+      <guid>https://Ahmad-Fermion.github.io/contact/</guid>
+      <description>Reach me via email at arajabis@uci.edu or through my Google Scholar.</description>
+    </item>
+    <item>
+      <title>CV</title>
+      <link>https://Ahmad-Fermion.github.io/cv/</link>
+      <pubDate>Mon, 02 Jun 2025 16:10:52 -0700</pubDate>
+      <guid>https://Ahmad-Fermion.github.io/cv/</guid>
+      <description>Download my CV here</description>
+    </item>
+    <item>
+      <title>Media</title>
+      <link>https://Ahmad-Fermion.github.io/media/</link>
+      <pubDate>Mon, 02 Jun 2025 16:10:52 -0700</pubDate>
+      <guid>https://Ahmad-Fermion.github.io/media/</guid>
+      <description>Coming soon! Links to talks, interviews, and media appearances.</description>
+    </item>
+    <item>
+      <title>Photos</title>
+      <link>https://Ahmad-Fermion.github.io/photos/</link>
+      <pubDate>Mon, 02 Jun 2025 16:10:52 -0700</pubDate>
+      <guid>https://Ahmad-Fermion.github.io/photos/</guid>
+      <description>Coming soon! Photos from conferences and lab work.</description>
+    </item>
+    <item>
+      <title>Publications</title>
+      <link>https://Ahmad-Fermion.github.io/publications/</link>
+      <pubDate>Mon, 02 Jun 2025 16:10:52 -0700</pubDate>
+      <guid>https://Ahmad-Fermion.github.io/publications/</guid>
+      <description>Please see my Google Scholar Profile for an updated publication list.</description>
+    </item>
+    <item>
+      <title>Research</title>
+      <link>https://Ahmad-Fermion.github.io/research/</link>
+      <pubDate>Mon, 02 Jun 2025 16:10:52 -0700</pubDate>
+      <guid>https://Ahmad-Fermion.github.io/research/</guid>
+      <description>My research focuses on computational modeling of chemical systems, including:&#xA;Drug Discovery: Predicting binding affinities using supervised learning. Quantum Computing: Exploring quantum chemistry with the QM9 dataset. Materials Science: Studying f-block organometallic complexes via KS-DFT and TDDFT. For example, I use the Schrödinger equation: $$ H\psi = E\psi $$.</description>
+    </item>
+  </channel>
+</rss>
