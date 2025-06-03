@@ -1,0 +1,18 @@
+.about-page-image {
+    border: 2px solid red; /* Visible if the div exists */
+}
+.about-page-image img {
+    width: 221px;
+    height: 331px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.about-page-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.about-page-content {
+    flex: 1;
+}
