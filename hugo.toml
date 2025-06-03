@@ -46,32 +46,31 @@ theme = "barks"
         class = "ai ai-google-scholar-square"
         url = "https://scholar.google.com/citations?hl=en&user=dhGYmhQAAAAJ"
         weight = 3
-
-[[menu.main]]
-    name = "Research"
-    url = "/research/"
-    weight = 1
-[[menu.main]]
-    name = "Publications"
-    url = "/publications/"
-    weight = 2
-[[menu.main]]
-    name = "CV"
-    url = "/cv/"
-    weight = 3
-[[menu.main]]
-    name = "Media"
-    url = "/media/"
-    weight = 4
-[[menu.main]]
-    name = "Photos"
-    url = "/photos/"
-    weight = 5
-[[menu.main]]
-    name = "Contact"
-    url = "/contact/"
-    weight = 6
 [[menu.main]]
     name = "About Me"
     url = "/about/"
+    weight = 1
+[[menu.main]]
+    name = "Research"
+    url = "/research/"
+    weight = 2
+[[menu.main]]
+    name = "Publications"
+    url = "/publications/"
+    weight = 3
+[[menu.main]]
+    name = "CV"
+    url = "/cv/"
+    weight = 4
+[[menu.main]]
+    name = "Media"
+    url = "/media/"
+    weight = 5
+[[menu.main]]
+    name = "Photos"
+    url = "/photos/"
+    weight = 6
+[[menu.main]]
+    name = "Contact"
+    url = "/contact/"
     weight = 7
