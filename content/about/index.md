@@ -6,7 +6,7 @@ layout = ''
 image = '/images/Ahmad.jpg'
 +++
 
-<img src="/images/Ahmad.jpg" alt="Ahmadreza Rajabi" class="right-image">
+![Ahmadreza Rajabi](/images/Ahmad.jpg){.right-image}
 
 I’m Ahmadreza Rajabi, a PhD candidate in Computational Chemistry at the University of California, Irvine (UCI). 
 My research focuses on electronic structure theory and materials science, with a special interest in f-block organometallic complexes and heavy-element chemistry. 

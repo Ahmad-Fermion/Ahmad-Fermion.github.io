@@ -30,6 +30,11 @@ theme = "barks"
     text_color = "#333333"
     link_color = "#3498db"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      attribute = true
+
 [params.social]
     [params.social.email]
         name = "E-Mail"
