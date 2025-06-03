@@ -11,3 +11,5 @@ My research focuses on computational modeling of chemical systems, including:
 - **Materials Science**: Studying f-block organometallic complexes via KS-DFT and TDDFT.
 
 For example, I use the Schrödinger equation: $$ H\psi = E\psi $$.
+
+![Animation](/images/structure.gif)
