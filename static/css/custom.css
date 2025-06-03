@@ -1,6 +1,6 @@
 .right-image {
     float: right;
-    width: 221px;
+    width: 221px; /* Adjust size */
     height: auto;
     max-width: 100%;
     margin-left: 20px;
