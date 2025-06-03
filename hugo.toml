@@ -9,9 +9,9 @@ theme = "barks"
     min = "0.87.0"
 
 [params.head]
-    Author = "Ahmadreza Rajabi"
+    author = ""
     custom_css = ""
-    Description = "PhD Candidate in Computational Chemistry | Electronic Structure Theory, Quantum Computing, Materials Science"
+    description = "Ph.D. Candidate in Computational Chemistry<br>Electronic Structure Theory, Quantum Computing, Materials Science"
     keywords = ["computational chemistry", "drug discovery", "quantum computing", "materials science", "f-block chemistry"]
 
 [params.navigation]
