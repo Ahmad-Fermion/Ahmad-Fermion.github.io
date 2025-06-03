@@ -71,3 +71,7 @@ theme = "barks"
     name = "Contact"
     url = "/contact/"
     weight = 6
+[[menu.main]]
+    name = "About Me"
+    url = "/about/"
+    weight = 7
