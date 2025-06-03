@@ -10,7 +10,7 @@ theme = "barks"
 
 [params.head]
     author = ""
-    custom_css = "/css/custom.css"
+    custom_css = ""
     description = "Ph.D. Candidate in Computational Chemistry<br>Electronic Structure Theory, Quantum Computing, Materials Science"
     keywords = ["computational chemistry", "drug discovery", "quantum computing", "materials science", "f-block chemistry"]
 
