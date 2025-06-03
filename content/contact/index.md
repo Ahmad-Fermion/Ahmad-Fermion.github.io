@@ -4,4 +4,4 @@ draft = false
 title = 'Contact'
 +++
 
-Reach me via email at [arajabis@uci.edu](mailto:arajabis@uci.edu) or through my [Google Scholar](https://scholar.google.com/citations?hl=en&user=dhGYmhQAAAAJ).
+Reach me via email at [rajabiahmadreza1@gmail.com](mailto:rajabiahmadreza1@gmail.com).
