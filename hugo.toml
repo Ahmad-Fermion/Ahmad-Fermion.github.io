@@ -1,6 +1,6 @@
 baseURL = "https://Ahmad-Fermion.github.io/"
 languageCode = "en-us"
-title = "Ahmadreza Rajabi"
+title = "Ahmadreza “Reza” Rajabi"
 theme = "barks"
 
 [module]
@@ -9,7 +9,7 @@ theme = "barks"
     min = "0.87.0"
 
 [params.head]
-  author = "Ahmadreza “Reza” Rajabi"
+  author = ""
   custom_css = "/css/custom.css"
   description = "Ph.D. Computational Quantum Chemist<br>Electronic Structure Theory, Molecular & Materials Modeling, Machine Learning"
 
