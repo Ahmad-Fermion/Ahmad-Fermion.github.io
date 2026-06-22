@@ -1,26 +1,33 @@
-# Ahmadreza Rajabi's Personal Website
+# Ahmadreza “Reza” Rajabi’s Personal Website
 
-Welcome to the repository for my personal website, showcasing my work as a PhD candidate in Computational Chemistry. This site highlights my research, publications, CV, media, photos, and contact information.
+Repository for my personal website and professional portfolio.
 
 🌐 **Live Website**: [https://Ahmad-Fermion.github.io](https://Ahmad-Fermion.github.io)
 
 ## About
-This website serves as a professional portfolio for my academic and research activities in computational chemistry. It includes:
-- **About**: Introduction to my background and interests.
-- **Research**: Overview of my projects in drug discovery, quantum computing, and materials science.
-- **Publications**: List of my 14 peer-reviewed publications.
-- **CV**: Downloadable CV.
-- **Media**: Links to talks and interviews (coming soon).
-- **Photos**: Images from conferences and lab work (coming soon).
+
+This site highlights my work as a Ph.D. computational quantum chemist developing quantum chemical methods, 
+molecular and materials modeling approaches, reliable workflows for large-scale calculations, high-performance computing tools, 
+and machine learning models, with applications across catalysis, quantum information science, heavy-element chemistry, and biomolecular/life-science systems.
+
+It includes:
+- **Home**: Professional introduction and overview.
+- **Research**: Research interests and projects.
+- **Publications**: Peer-reviewed publications.
+- **CV**: Curriculum vitae.
+- **Media**: Talks, interviews, and related content.
 - **Contact**: Ways to reach me.
 
 ## Technologies
+
 - **Hugo**: Static site generator.
-- **Barks Theme**: Minimalistic theme for academic sites.
-- **GitHub Pages**: Hosting the static website.
+- **Barks Theme**: Minimal academic theme.
+- **GitHub Pages**: Website hosting.
 
 ## License
-This project is licensed under the [MIT License](LICENSE). See the LICENSE file for details.
+
+This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
-For inquiries, email me at [arajabis@uci.edu].
+
+For inquiries, email me at [arajabis@uci.edu](mailto:arajabis@uci.edu).

@@ -6,6 +6,6 @@ layout = 'landing_page'
 image = '/images/Ahmad.jpg'
 +++
 
-I’m Ahmadreza Rajabi, a PhD candidate in Computational Chemistry at the University of California, Irvine (UCI). 
-My research focuses on electronic structure theory and materials science, with a special interest in f-block organometallic complexes and heavy-element chemistry. 
-With 17 peer-reviewed publications in journals such as *JACS* and *Chemical Science*, I collaborate with leading groups to advance chemical reactivity and material properties. Explore my work, CV, and projects here!
+Welcome to my profile! I’m Ahmadreza “Reza” Rajabi, a Ph.D. computational quantum chemist with experience in electronic structure theory, molecular and materials modeling, high-performance computing, and scientific software development.
+
+My work spans catalysis, quantum information science, and heavy-element chemistry, with broader interests in machine learning, including machine-learned interatomic potentials, biomolecular modeling, and drug discovery. Explore my research, publications, CV, and projects here.

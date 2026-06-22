@@ -9,10 +9,12 @@ theme = "barks"
     min = "0.87.0"
 
 [params.head]
-  author = ""
+  author = "Ahmadreza “Reza” Rajabi"
   custom_css = "/css/custom.css"
-  description = "Ph.D. Candidate in Computational Chemistry<br>Electronic Structure Theory, Quantum Computing, Materials Science"
-  keywords = ["computational chemistry", "drug discovery", "quantum computing", "materials science", "f-block chemistry"]
+  description = "Ph.D. Computational Quantum Chemist<br>Electronic Structure Theory, Molecular & Materials Modeling, Machine Learning"
+
+  keywords = ["computational quantum chemistry", "drug discovery", "materials science", "machine learning", "f-block chemistry"]
+
 
 [params.navigation]
   show_navigation = true

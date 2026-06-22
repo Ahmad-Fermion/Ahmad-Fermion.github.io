@@ -4,4 +4,6 @@ draft = false
 title = 'Contact'
 +++
 
-Reach me via email at [rajabiahmadreza1@gmail.com](mailto:rajabiahmadreza1@gmail.com).
+Feel free to reach out with questions, ideas, or opportunities. I’m always happy to connect.
+
+Email: [rajabiahmadreza1@gmail.com](mailto:rajabiahmadreza1@gmail.com)
