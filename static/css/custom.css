@@ -1,8 +1,310 @@
 .right-image {
     float: right;
-    width: 221px; /* Adjust size */
+    width: 221px;
     height: auto;
     max-width: 100%;
     margin-left: 20px;
     margin-bottom: 20px;
+}
+
+/* ===== Homepage sky background ===== */
+
+.landing-sky-shell {
+    position: relative;
+    overflow: hidden;
+    min-height: 760px;
+    padding: 2rem 1.5rem;
+    background:
+        linear-gradient(
+            to bottom,
+            #6fa8dc 0%,
+            #8fc2ee 28%,
+            #b9ddf8 58%,
+            #f1d7bd 82%,
+            #f6e8d9 100%
+        );
+}
+
+/* soft atmospheric light */
+.landing-sky-shell::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(circle at 18% 16%, rgba(255,255,255,0.30) 0%, rgba(255,255,255,0.00) 24%),
+        radial-gradient(circle at 80% 22%, rgba(255,255,255,0.16) 0%, rgba(255,255,255,0.00) 20%),
+        linear-gradient(to bottom, rgba(255,255,255,0.10), rgba(255,255,255,0.03) 45%, rgba(255,255,255,0.00) 100%);
+    z-index: 0;
+    pointer-events: none;
+}
+
+/* subtle sun glow */
+.sky-glow {
+    position: absolute;
+    top: 70px;
+    right: 90px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background: radial-gradient(
+        circle,
+        rgba(255, 245, 210, 0.42) 0%,
+        rgba(255, 236, 196, 0.20) 35%,
+        rgba(255, 236, 196, 0.00) 72%
+    );
+    z-index: 0;
+    pointer-events: none;
+}
+
+.landing-sky-content {
+    position: relative;
+    z-index: 2;
+}
+
+/* optional readability boost for text */
+.landing-sky-content p,
+.landing-sky-content li,
+.landing-sky-content h1,
+.landing-sky-content h2,
+.landing-sky-content h3 {
+    text-shadow: 0 1px 0 rgba(255,255,255,0.18);
+}
+
+/* ===== Clouds ===== */
+
+.sky-cloud {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.50);
+    border-radius: 999px;
+    filter: blur(11px);
+    z-index: 1;
+    pointer-events: none;
+    will-change: transform;
+    box-shadow:
+        0 8px 18px rgba(255,255,255,0.10),
+        0 2px 6px rgba(120,160,200,0.06);
+}
+
+.sky-cloud::before,
+.sky-cloud::after {
+    content: "";
+    position: absolute;
+    background: inherit;
+    border-radius: 999px;
+}
+
+/* front cloud */
+.cloud-1 {
+    width: 280px;
+    height: 76px;
+    top: 90px;
+    left: -320px;
+    animation: drift-cloud-1 30s linear infinite;
+}
+
+.cloud-1::before {
+    width: 118px;
+    height: 118px;
+    left: 28px;
+    top: -38px;
+}
+
+.cloud-1::after {
+    width: 138px;
+    height: 96px;
+    left: 118px;
+    top: -28px;
+}
+
+/* medium cloud */
+.cloud-2 {
+    width: 340px;
+    height: 88px;
+    top: 220px;
+    left: -390px;
+    background: rgba(255, 255, 255, 0.40);
+    animation: drift-cloud-2 42s linear infinite;
+}
+
+.cloud-2::before {
+    width: 130px;
+    height: 130px;
+    left: 42px;
+    top: -40px;
+}
+
+.cloud-2::after {
+    width: 156px;
+    height: 106px;
+    left: 152px;
+    top: -25px;
+}
+
+/* distant cloud */
+.cloud-3 {
+    width: 240px;
+    height: 62px;
+    top: 360px;
+    left: -270px;
+    background: rgba(255, 255, 255, 0.30);
+    animation: drift-cloud-3 56s linear infinite;
+}
+
+.cloud-3::before {
+    width: 92px;
+    height: 92px;
+    left: 26px;
+    top: -28px;
+}
+
+.cloud-3::after {
+    width: 116px;
+    height: 80px;
+    left: 102px;
+    top: -20px;
+}
+
+/* low cloud near horizon */
+.cloud-4 {
+    width: 300px;
+    height: 72px;
+    top: 520px;
+    left: -360px;
+    background: rgba(255, 255, 255, 0.26);
+    animation: drift-cloud-4 68s linear infinite;
+}
+
+.cloud-4::before {
+    width: 104px;
+    height: 104px;
+    left: 36px;
+    top: -32px;
+}
+
+.cloud-4::after {
+    width: 128px;
+    height: 90px;
+    left: 126px;
+    top: -24px;
+}
+
+@keyframes drift-cloud-1 {
+    from { transform: translateX(0); }
+    to   { transform: translateX(1650px); }
+}
+
+@keyframes drift-cloud-2 {
+    from { transform: translateX(0); }
+    to   { transform: translateX(1750px); }
+}
+
+@keyframes drift-cloud-3 {
+    from { transform: translateX(0); }
+    to   { transform: translateX(1550px); }
+}
+
+@keyframes drift-cloud-4 {
+    from { transform: translateX(0); }
+    to   { transform: translateX(1700px); }
+}
+
+@media (min-width: 900px) {
+    .landing-sky-shell {
+        min-height: 820px;
+        padding: 3rem 2rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .landing-sky-shell {
+        min-height: 700px;
+        padding: 1.5rem 1rem;
+    }
+
+    .sky-glow {
+        width: 150px;
+        height: 150px;
+        right: 24px;
+        top: 40px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .sky-cloud {
+        animation: none;
+    }
+}
+
+/* ===== Wider overall site layout ===== */
+.outer {
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.middle {
+    width: min(1500px, 98vw);
+    margin: 0 auto;
+}
+
+/* ===== Homepage sky section: larger, but not full-width ===== */
+.landing-sky-shell {
+    width: 100%;
+    max-width: 1380px;
+    margin: 0 auto;
+}
+
+.landing-sky-content {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+/* ===== Navigation: responsive layout ===== */
+
+/* BASE (desktop first) */
+.middle nav ul {
+    display: flex;
+    flex-wrap: nowrap;          /* keep one row on large screens */
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem 1.2rem;         /* comfortable spacing */
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.middle nav ul li {
+    white-space: nowrap;
+}
+
+/* ===== Medium screens (laptops, tablets) ===== */
+@media (max-width: 1200px) {
+    .middle nav ul {
+        flex-wrap: wrap;        /* allow wrapping if needed */
+        gap: 0.5rem 1rem;
+    }
+}
+
+/* ===== Small screens (phones) ===== */
+@media (max-width: 700px) {
+    .middle nav ul {
+        flex-wrap: wrap;
+        gap: 0.4rem 0.8rem;
+        justify-content: center;
+    }
+
+    .middle nav a {
+        font-size: 0.95rem;     /* slightly smaller only on small screens */
+    }
+}
+
+/* ===== Slightly tighter header spacing ===== */
+.middle h1 {
+    margin-bottom: 0.3em;
+}
+
+.middle p {
+    margin-top: 0.2em;
+    margin-bottom: 0.6em;
 }

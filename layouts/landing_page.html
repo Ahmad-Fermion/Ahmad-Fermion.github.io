@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+<div class="landing-sky-shell">
+  <div class="sky-glow"></div>
+
+  <div class="sky-cloud cloud-1"></div>
+  <div class="sky-cloud cloud-2"></div>
+  <div class="sky-cloud cloud-3"></div>
+  <div class="sky-cloud cloud-4"></div>
+
+  <div class="landing-sky-content">
+    {{ with .Params.image }}
+      <img src="{{ . | relURL }}" alt="{{ $.Title }}" class="right-image">
+    {{ end }}
+
+    {{ .Content }}
+  </div>
+</div>
+
+{{ end }}
